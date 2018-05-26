@@ -12,3 +12,5 @@ from sklearn.cluster import KMeans
 data = dataReduction.data_Reduction()
 
 kMeans = KMeans(n_clusters=6, precompute_distances=True).fit(data)
+
+print('hallo')
