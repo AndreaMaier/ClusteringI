@@ -30,5 +30,5 @@ def data_Correlation():
 def data_Reduction():
     data = dataCleaning.data_Cleaning()
     data = data.drop(['displacement'], axis=1)
+    data = data.drop(['carName'], axis=1)
     return data
-
